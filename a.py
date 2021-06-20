@@ -19,7 +19,7 @@ except Exception as ex:
 
 #Automate mails:
 
-reciever='rvce.anjali@gmail.com'
+reciever='anjalimishra.ei19@rvce.edu.in'
 message=text
-sender=yagmail.SMTP('mishranavneet1710@gmail.com')
+sender=yagmail.SMTP('rvce.anjali@gmail.com')
 sender.send(to=reciever,subject='This is an automated mail',contents=message)
